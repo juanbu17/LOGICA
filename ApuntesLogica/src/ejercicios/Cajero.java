@@ -17,9 +17,14 @@ public class Cajero {
         }else{
             System.out.println("Saldo insuficiente");
         }
-        System.out.println("nada");
+       
     }
    
+    public static int retiro(){
     
+    
+    
+    
+}
     
 }
