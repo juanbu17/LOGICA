@@ -27,7 +27,7 @@ public class Casos {
         case 1:
         System.out.println("Calcular area: ");
         
-            System.out.println("ingrse lado 1");
+            System.out.println("ingrese lado 1");
             double a=scn.nextDouble();
             System.out.println("ingrse lado 2");
             double b=scn.nextDouble();
