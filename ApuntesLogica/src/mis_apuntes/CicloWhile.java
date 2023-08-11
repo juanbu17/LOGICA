@@ -17,7 +17,7 @@ public class CicloWhile {
         
         
         while(seconds<=30){
-            points--;
+            points++;
             
             seconds++;
             System.out.println("tiene: "+points + "puntos");

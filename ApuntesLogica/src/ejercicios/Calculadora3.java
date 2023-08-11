@@ -21,6 +21,7 @@ public class Calculadora3 {
             int  isOn;
             
         System.out.println("Oprima 1 para encender la calculadora");
+        
         isOn = sc.nextInt();
         while (isOn!=0){
               
