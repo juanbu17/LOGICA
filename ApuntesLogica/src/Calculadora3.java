@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author 507
  */
-public class Calculadora2 {
+public class Calculadora3{
     
     static Scanner sc = new Scanner (System.in);
     
