@@ -8,7 +8,7 @@ package mis_apuntes;
  *
  * @author desarrollo
  */
-public class Lista {
+public class ForLista {
     public static void main(String[] args) {
        String[]names = {"Maria","Juan","Andres","Luisa"};
        
