@@ -43,10 +43,12 @@ public class ArrayDinamico {
        }
        //trabajo final logica:
        /*crear una funcionalidad que agregue nombre a un arraylist de manera
-       dinamica preguntando si desea agregar un nuevo nombre adema sdebe imprimir
+       dinamica preguntando si desea agregar un nuevo nombre ademas debe imprimir
        el listado de nombres indicando nombre # y debe permitir salir de la 
-       funcionalidad do whilw  funcion para imprimir iterando con for pero tod 
-       dentro de un while switc para menu  28 ago
+       funcionalidad
+       do whilw  funcion para imprimir iterando con for pero tod 
+       dentro de un while
+       switc para menu  28 ago
        investigar metodo size y metodo get  
        
        https://www.w3schools.com/java/java_arraylist.asp
