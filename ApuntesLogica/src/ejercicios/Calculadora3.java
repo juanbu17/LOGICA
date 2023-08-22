@@ -16,6 +16,7 @@ public class Calculadora3 {
         
     }
     
+    
     public static void menuCalc(){
         
             int  isOn;
