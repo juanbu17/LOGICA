@@ -1,14 +1,12 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+
  */
 package mis_apuntes;
 
 import java.util.Scanner;
 
 /**
- *
- * @author 507
+@author 507
  */
 public class Arrays2 {
 
@@ -28,11 +26,17 @@ public class Arrays2 {
         System.out.println("la flor en la posicion 0 es: " + flores[0]);
         //podemos definir un array  y agregar elementos en las diferentes pocisiones
         //int tallas[]; // esto es definir un arrray
+        
+        
+        
+     /*Ejemplo tomando desde Scanner definiendo por teclado y de manera estática*/   
+        
+        
 
         int tallas[] = new int[7];// esto declara el array(define el tamaño)
       
         
-        //para no generarrla de tipo estatica sino por escaner:
+    
         
         
         int n = 0;

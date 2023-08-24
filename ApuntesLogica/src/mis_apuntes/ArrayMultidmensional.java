@@ -18,7 +18,7 @@ public class ArrayMultidmensional {
     //recordar qu la matriz la podemos definir como un arrary de arrays
     
         System.out.println("Posicion 0,2 es: "+numeros[0][2]);
-        System.out.println("Posicion 2,1 es: "+numeros[2][2]);
+        System.out.println("Posicion 2,1 es: "+numeros[2][1]);
         
         //para rtecorrer la matrices se usa un for anidado: con el externo  recorremos i y con el interno reccorrremos j
         

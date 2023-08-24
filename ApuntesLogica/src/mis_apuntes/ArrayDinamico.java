@@ -36,11 +36,11 @@ public class ArrayDinamico {
         System.out.println("Nombres: "+ names.toString());
        
        for(int i=0; i<names.size();i++){
-           System.out.println("Nombres"+ names.get(i));
-           
-           
-           
+           System.out.println("Nombres "+ names.get(i));      
        }
+       
+       
+       
        //trabajo final logica:
        /*crear una funcionalidad que agregue nombre a un arraylist de manera
        dinamica preguntando si desea agregar un nuevo nombre ademas debe imprimir

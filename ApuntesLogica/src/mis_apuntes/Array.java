@@ -1,14 +1,12 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+
  */
 package mis_apuntes;
 
 import java.util.Scanner;
 
 /**
- *
- * @author desarrollo
+@author Juan Buitrago
  */
 public class Array {
     public static void main(String[] args) {
@@ -18,7 +16,7 @@ public class Array {
             String lea3;
             String lea4;
 
-                    System.out.println("ingrese nombre");
+             System.out.println("ingrese nombre");
             lea=leer.nextLine();
              System.out.println("ingrese nombre");
             lea2=leer.nextLine();
@@ -34,7 +32,7 @@ public class Array {
         names[2]=lea3;
         names[3]=lea4;
 
-                    for(int i=0;i<names.length;i++){
+        for(int i=0;i<names.length;i++){
         System.out.println("posicion :"+i+" es "+names[i]);
     }
     }
