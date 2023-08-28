@@ -21,16 +21,15 @@ public class DoWhile {
         
     }
     public static int calcularArea(){
-        
-        
-            System.out.println("Ingrese lado 1: ");
-            int lado1 = sc.nextInt();
-            
-            System.out.println("Ingrese lado 2: ");
-            int lado2 = sc.nextInt();
-            int area = lado1*lado2;
-       return area;
-        
+
+        System.out.println("Ingrese lado 1: ");
+        int lado1 = sc.nextInt();
+
+        System.out.println("Ingrese lado 2: ");
+        int lado2 = sc.nextInt();
+        int area = lado1 * lado2;
+        return area;
+
     
         
         
