@@ -30,13 +30,26 @@ public class Test {
 
                                                                            // System.out.println(nicolas.nombre);
                                                                             //System.out.println(usuarioPepito.nombre);
-            nicolas.registrarUsuario();                                                                 //System.out.println(usuario.nombre);
+            /*nicolas.registrarUsuario();                                                                 //System.out.println(usuario.nombre);
             System.out.println(nicolas.toString());
-            nicolas.iniciarsesion();
+            nicolas.iniciarsesion();*/
 
             Estudiante estudiante = new Estudiante();
+            estudiante.setNombre("Pepito");// va a estudiante y asigna nombre y manda a traves de nombre a private string nombre
+            System.out.println(estudiante.getNombre());
 
 
+            Empleado empleado=new Empleado();
+            empleado.setNombre("Maria");
+            System.out.println(empleado.getNombre());
+
+            Usuario estSoftware= new Estudiante();
+
+            Usuario empProfesor = new Empleado();
+
+            estudiante.registrarUsuario();
+            estudiante.toString();
+            estudiante.iniciarsesion();
 
     }
 
