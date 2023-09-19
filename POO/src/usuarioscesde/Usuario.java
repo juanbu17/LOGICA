@@ -6,7 +6,7 @@ public class Usuario {
     Scanner sc = new Scanner(System.in);
 
 
-    // Primero creamos los atributos encapsulados con private (si fuera public seria visiblepara todas las clases
+    // Primero creamos los atributos encapsulados con private (si fuera public seria visible para todas las clases
 
     private int id;
     private String nombre;
