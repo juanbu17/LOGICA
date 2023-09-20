@@ -121,8 +121,8 @@ public class Usuario {
     }
 
 
-    public String toString() {
-        return "Usuario{" +
+    public void imprimirUsuario() {
+        System.out.println(
 
                 ", id=" + id +
                 ", nombre='" + nombre + '\n' +
@@ -131,7 +131,7 @@ public class Usuario {
                 ", contrasena='" + contrasena + '\n' +
                 ", direccion='" + direccion + '\n' +
                 ", telefono='" + telefono + '\n' +
-                '}';
+                '}');
     }
 
 

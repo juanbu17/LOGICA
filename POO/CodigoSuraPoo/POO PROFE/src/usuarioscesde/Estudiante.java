@@ -56,8 +56,8 @@ public class Estudiante extends Academico{
     }
 
     @Override
-    public String toString() {
-        return super.toString();
+    public void imprimirUsuario() {
+        super.imprimirUsuario();
     }
 
     @Override

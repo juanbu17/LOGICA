@@ -48,7 +48,7 @@ public class Test {
 
 Profesor profePepito = new Profesor();
 profePepito.registrarUsuario();
-profePepito.toString();
+profePepito.imprimirUsuario();
 profePepito.iniciarSesion();
 
 

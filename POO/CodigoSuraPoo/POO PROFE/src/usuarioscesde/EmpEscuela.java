@@ -29,4 +29,9 @@ public class EmpEscuela extends Academico {
     public void setRol(String rol) {
         this.rol = rol;
     }
+
+
+
+
+
 }
