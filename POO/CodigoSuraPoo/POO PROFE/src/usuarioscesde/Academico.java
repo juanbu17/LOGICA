@@ -1,5 +1,5 @@
 package usuarioscesde;
-
+/* Esta clase es una clase "ABSTRACTA"--------------------------------------------------------------------*/
 public class Academico extends Usuario{
     protected String escuela;
     public Academico(){

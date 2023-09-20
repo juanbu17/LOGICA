@@ -35,5 +35,6 @@ public class Profesor extends Academico{
     @Override
     public void imprimirUsuario() {
         super.imprimirUsuario();
+        System.out.println("Escuela: "+escuela+"\n"+ " Curso: "+curso+"\n");
     }
 }
