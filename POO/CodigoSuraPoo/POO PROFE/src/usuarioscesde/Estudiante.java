@@ -4,7 +4,7 @@ public class Estudiante extends Academico{
 
 
     //Atributos
-    private String carrera;
+    private String programa;
 
 
     // Constructores
@@ -14,18 +14,18 @@ public class Estudiante extends Academico{
 
     public Estudiante(int id, String nombre, String apellido, String correo, String contrasena, String direccion, String telefono, String escuela, String carrera) {
         super(id, nombre, apellido, correo, contrasena, direccion, telefono, escuela);
-        this.carrera = carrera;
+        this.programa = carrera;
     }
 
 //Getter and Setter
 
 
-    public String getCarrera() {
-        return carrera;
+    public String getPrograma() {
+        return programa;
     }
 
-    public void setCarrera(String carrera) {
-        this.carrera = carrera;
+    public void setPrograma(String programa) {
+        this.programa = programa;
     }
 
     // Metodos
@@ -52,7 +52,7 @@ public class Estudiante extends Academico{
         System.out.println("Ingrese su dirección: ");
         this.direccion = sc.nextLine();
         System.out.println("Indique el programa de su interés");
-        this.carrera = sc.nextLine();
+        this.programa = sc.nextLine();
     }
 
     @Override
