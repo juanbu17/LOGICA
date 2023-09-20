@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApuntesLogica/ApuntesLogica.iml" filepath="$PROJECT_DIR$/ApuntesLogica/ApuntesLogica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosCasa2/EjerciciosCasa2.iml" filepath="$PROJECT_DIR$/EjerciciosCasa2/EjerciciosCasa2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackendJava1/Empleado/Empleado.iml" filepath="$PROJECT_DIR$/BackendJava1/Empleado/Empleado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicios otros/Examen/Examen.iml" filepath="$PROJECT_DIR$/ejercicios otros/Examen/Examen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicios otros/ExamenUltimoEjercicio/ExamenUltimoEjercicio.iml" filepath="$PROJECT_DIR$/ejercicios otros/ExamenUltimoEjercicio/ExamenUltimoEjercicio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackendJava1/GestorFinApp/GestorFinApp.iml" filepath="$PROJECT_DIR$/BackendJava1/GestorFinApp/GestorFinApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LOGICA.iml" filepath="$PROJECT_DIR$/.idea/LOGICA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO/POO.iml" filepath="$PROJECT_DIR$/POO/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackendJava1/Registro/Registro.iml" filepath="$PROJECT_DIR$/BackendJava1/Registro/Registro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicios otros/examen2.0/examen2.0.iml" filepath="$PROJECT_DIR$/ejercicios otros/examen2.0/examen2.0.iml" />
+    </modules>
+  </component>
+</project>
