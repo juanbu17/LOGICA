@@ -1,7 +1,7 @@
 package usuarioscesde;
 
 public class Academico extends Usuario{
-    private String escuela;
+    protected String escuela;
     public Academico(){
 
     }

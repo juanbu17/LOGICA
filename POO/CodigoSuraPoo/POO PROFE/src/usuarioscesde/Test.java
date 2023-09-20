@@ -24,7 +24,7 @@ public class Test {
         */
 
 
-        Estudiante estudiante = new Estudiante();
+       /* Estudiante estudiante = new Estudiante();
 
         estudiante.setNombre("Pepito");
 
@@ -39,13 +39,17 @@ public class Test {
         Usuario estSoftware = new Estudiante();
 
         Usuario empProfesor = new Empleado();
-        estSoftware.registrarUsuario();
+        estSoftware.registrarUsuario();*/
         //estudiante.registrarUsuario();
         //estudiante.toString();
         //estudiante.iniciarSesion();
 
 
 
+Profesor profePepito = new Profesor();
+profePepito.registrarUsuario();
+profePepito.toString();
+profePepito.iniciarSesion();
 
 
 
