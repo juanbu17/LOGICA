@@ -1,6 +1,7 @@
-clases abstractas
-interfaces 
+
 herencia
 encapsulamiento
 herencia
 polimorfismo
+clases abstractas
+interfaces 
