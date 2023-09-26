@@ -1,0 +1,13 @@
+1. Creación de una clase Persona: Crea una clase llamada "Persona" con atributos como nombre, edad y género. Luego, crea varios objetos de esta clase en el main y muestra los atributos de cada una.
+
+2. Calculadora simple: Crea una clase llamada "Calculadora" que tenga métodos para sumar, restar, multiplicar y dividir dos números. Luego en el main, ingresa 2 números enteros y realiza operaciones usando un objeto de tipo Calculadora.
+
+3. Creación de una clase Coche: Crea una clase "Coche" con atributos como marca, modelo y año. Agrega un método para imprimir la información del coche y luego crea un objeto de tipo coche en el main, y desde el main llama al metodo para imprimir la info.
+
+4. Cuenta bancaria: Crea una clase "CuentaBancaria" con atributos como saldo y número de cuenta. Agrega métodos para depositar y retirar dinero.
+
+5. Registro de estudiantes: Crea una clase "Estudiante" con atributos como nombre, edad y calificaciones (Como son varias puede ser un arreglo). Agrega un método para calcular el promedio de calificaciones.
+
+6. Gestión de empleados: Crea una clase "Empleado" con atributos como nombre, salario y cargo. Agrega un método para calcular el salario anual.
+
+7. Lista de tareas: Crea una clase "Tarea" con atributos como descripción y estado. Luego, crea una clase "ListaDeTareas" que gestione una lista de tareas y tenga métodos para agregar, eliminar y marcar tareas como completadas.
