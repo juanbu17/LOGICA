@@ -1,9 +1,22 @@
 package co.com.nominaxyz;
 
 public class Cargo {
-    private int idCargo;
-    private String nombrecargo;
-    private double salario;
+
+
+protected int idCargo;
+protected String nombreCargo;
+protected double salario;
+
+
+
+//crear los metodos:
+public void crearCargo(){
+
+}
+
+public void verCargo(){
+
+}
 
 
 

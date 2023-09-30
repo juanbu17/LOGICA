@@ -1,8 +1,10 @@
 package co.com.nominaxyz;
 
-public class Empleado {
+public class Empleado extends Usuario{
 
-    private String area;
-    private String cargoNombre;
+protected String area;
+protected Cargo nombre;
+
+protected Nomina nomina;
 
 }

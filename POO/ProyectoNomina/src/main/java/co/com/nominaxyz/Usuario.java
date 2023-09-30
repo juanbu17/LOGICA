@@ -1,13 +1,19 @@
 package co.com.nominaxyz;
 
-public class Usuario {
+public class Usuario extends ServicioUtil {
 
-    private int idUsuario;
-    private String nombre;
-    private String apellido;
-    private String correo;
+protected int idUsuario;
+protected String nombre;
+protected  String apellido;
+protected String correo;
 
+    @Override
+    public void crearEmpleado() {
+        super.crearEmpleado();
+    }
 
-
-
+    @Override
+    public void verEmpleado() {
+        super.verEmpleado();
+    }
 }

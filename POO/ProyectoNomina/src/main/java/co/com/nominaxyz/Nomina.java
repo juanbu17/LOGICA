@@ -1,9 +1,17 @@
 package co.com.nominaxyz;
 
-public class Nomina {
+public class Nomina extends ServicioUtil{
+    protected Cargo salario;
+    protected Empleado empleado;
 
-    private String cargoSalario;
 
 
+    //metodos:
+    public void calclarNomina(){
+
+    }
+    public void imprimirColilla(){
+
+    }
 
 }
