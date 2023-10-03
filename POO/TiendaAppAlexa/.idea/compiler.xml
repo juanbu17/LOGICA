@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Nomina" />
-        <module name="ProyectoNominaFinal" />
+        <module name="TiendaApp" />
       </profile>
     </annotationProcessing>
   </component>
