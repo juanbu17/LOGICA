@@ -70,10 +70,12 @@ public class ProductoDao {
 
         }
 
-    public static  void modificarProductoDB(){
+    public static  void modificarProductoDB(Producto update){
+
+
 
     }
-
+//----------------------------------------------------------------------------------
     public static void eliminarProductoDB(int idProducto){
 Conexion conexion = new Conexion();
 try(Connection connect = conexion.get_connection()){
