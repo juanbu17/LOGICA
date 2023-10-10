@@ -8,6 +8,8 @@ public class Producto {
     private double costo;
     private double cantidad;
 
+    private int opc;
+
     public Producto() {
     }
 
@@ -65,5 +67,13 @@ public class Producto {
 
     public void setCantidad(double cantidad) {
         this.cantidad = cantidad;
+    }
+
+    public int getOpc() {
+        return opc;
+    }
+
+    public void setOpc(int opc) {
+        this.opc = opc;
     }
 }
