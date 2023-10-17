@@ -8,7 +8,7 @@ import java.sql.*;
 public class ProductoDao {
 
     public static void crearProductoDB(Producto producto) {
-        Conexion connect = new Conexion();
+       Conexion connect = new Conexion();
         try (Connection con = connect.get_connection()) {
 
             PreparedStatement ps = null;

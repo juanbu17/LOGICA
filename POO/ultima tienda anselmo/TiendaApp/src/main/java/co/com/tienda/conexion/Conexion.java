@@ -7,49 +7,53 @@ import java.sql.SQLException;
 public class Conexion {
 
     private static Connection connect;
-    private Conexion(){
 
-        try{
+    private Conexion() {
+
+        try {
             connect = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/tienda_epica",
                     "root",
                     "");
-            if(connect != null){
+            if (connect != null) {
                 System.out.println("La conexión ha sido exitosa");
             }
-        }catch(SQLException e){
+        } catch (SQLException e) {
             System.out.println(e);
         }
     }
 
-    public static Connection get_connection(){
-        if(connect == null){
+    public static Connection get_connection() {
+        if (connect == null) {
             new Conexion();
         }
 
-        try{
+        try {
             connect = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/tienda_epica",
                     "root",
                     "");
-            if(connect != null){
+            if (connect != null) {
                 System.out.println("La conexión ha sido exitosa");
             }
-        }catch(SQLException e){
+        } catch (SQLException e) {
             System.out.println(e);
         }
         return connect;
-    };
+    }
+
+    ;
+
+    public static void close_connection() {
+        try {
+            if (connect != null) {
+                connect.close();
+                connect = null;
+            }
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
 }
 
 
-
-public static void close_connection(){
-   try{
-       if(connect!=null){
-           connect.close();
-           connect=null;
-       }
-   }catch(Exception e){
-       System.out.println(e);
-    }
