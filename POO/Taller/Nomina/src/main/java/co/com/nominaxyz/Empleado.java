@@ -22,7 +22,7 @@ public class Empleado extends Usuario {
 
     @Override
     public void crearUsuario(Cargo cargo) {
-        System.out.println("---------- EMPLEADO NUEVO ----------");
+        System.out.println("----------CREAR EMPLEADO NUEVO ----------");
         super.crearUsuario(cargo);
         this.cargo = cargo;
         System.out.println("Ingrese el area de trabajo: ");
@@ -33,7 +33,7 @@ public class Empleado extends Usuario {
     public void verUsuario() {
         super.verUsuario();
         System.out.println(
-                "Cargo: " + this.cargo.getNombreCargo() + "\n" +
+                        "Cargo: " + this.cargo.getNombreCargo() + "\n" +
                         "Salario: " + this.cargo.getSalarioCargo()
         );
     }

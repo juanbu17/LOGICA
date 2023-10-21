@@ -57,7 +57,7 @@ public class Nomina extends ServiceUtil {
     public void imprimirColilla() {
         System.out.println("----------------------------------------------------------------");
         System.out.println(
-                "ID nomina: " + this.idNomina + "\n" +
+                        "ID nomina: " + this.idNomina + "\n" +
                         "Salario final: " + this.salarioFinal + "\n" +
                         "ID empleado: " + this.empleado.getId() + "\n" +
                         "Nombre empleado: " + this.empleado.getNombre() + "\n" +

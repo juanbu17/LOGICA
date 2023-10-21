@@ -41,7 +41,7 @@ public class Usuario extends ServiceUtil{
     @Override
     public void crearUsuario(Cargo cargo) {
         System.out.println();
-        System.out.println("Ingrese id: ");
+        System.out.println("Ingrese la cedula: ");
         this.id = sc.nextLine();
         System.out.println("Ingrese nombre: ");
         this.nombre = sc.nextLine();

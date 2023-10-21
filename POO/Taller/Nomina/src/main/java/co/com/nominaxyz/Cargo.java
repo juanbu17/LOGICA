@@ -34,7 +34,7 @@ public class Cargo {
 
     public void crearCargo() {
         System.out.println();
-        System.out.println("---------- CARGO NUEVO ----------");
+        System.out.println("---------- CREAR CARGO NUEVO ----------");
         System.out.println("Ingrese el ID del cargo: ");
         this.idCargo = sc.nextLine();
         System.out.println("Ingrese el nombre del cargo: ");
@@ -46,7 +46,7 @@ public class Cargo {
 
     public void verCargo() {
         System.out.println(
-                "ID: " + this.idCargo + "\n" +
+                        "ID: " + this.idCargo + "\n" +
                         "Cargo: " + this.nombreCargo + "\n" +
                         "Salario base: " + this.salarioCargo + "\n"
         );
