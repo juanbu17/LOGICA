@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6c38bb8-9183-4f29-b3da-31ab1c52e0c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Taller/Nomina/src/main/java/co/com/nominaxyz/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Taller/Nomina/src/main/java/co/com/nominaxyz/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Taller/Nomina/src/main/java/co/com/nominaxyz/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Taller/Nomina/src/main/java/co/com/nominaxyz/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Taller/Nomina/src/main/java/co/com/nominaxyz/Nomina.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Taller/Nomina/src/main/java/co/com/nominaxyz/Nomina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Taller/Nomina/src/main/java/co/com/nominaxyz/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Taller/Nomina/src/main/java/co/com/nominaxyz/Usuario.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2WI3tT0iqnid7gzHk3EpiJo12wq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/desarrollo/IdeaProjects/TiendaApp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.tienda_epica.Main.Main" />
+      <module name="TiendaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.tienda_epica.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.tienda_epica.test.TestDelete" />
+      <module name="TiendaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.tienda_epica.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.tienda_epica.test.TestInsert" />
+      <module name="TiendaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.tienda_epica.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.tienda_epica.test.TestSelect" />
+      <module name="TiendaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.tienda_epica.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.tienda_epica.test.TestUpdate" />
+      <module name="TiendaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.tienda_epica.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestUpdate" />
+        <item itemvalue="Application.TestSelect" />
+        <item itemvalue="Application.TestDelete" />
+        <item itemvalue="Application.TestInsert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6c38bb8-9183-4f29-b3da-31ab1c52e0c1" name="Changes" comment="" />
+      <created>1696406483037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696406483037</updated>
+    </task>
+    <servers />
+  </component>
+</project>
