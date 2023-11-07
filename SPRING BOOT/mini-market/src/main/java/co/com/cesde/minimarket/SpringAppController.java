@@ -10,7 +10,7 @@ public class SpringAppController {
   @GetMapping ("/hola")
     public String printGreeting(){
         String name = "Spring BOOT";
-        return "Hello Word, I`m JuanB, this is my first code whit "+name;
+        return "Hello Word, I`m JuanB, I´m an student, this is my first code whit "+name;
 
     }
 
