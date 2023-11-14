@@ -1,3 +1,21 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 08-11-2023 a las 18:33:33
+-- Versión del servidor: 10.4.24-MariaDB
+-- Versión de PHP: 8.0.19
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Base de datos: `minimarket`
@@ -10,18 +28,18 @@
 --
 
 CREATE TABLE `categorias` (
-  `ID_CATEGORIA` INT(11) NOT NULL,
-  `NOMBRE_CATEGORIA` VARCHAR(55) NOT NULL,
-  `ESTADO` TINYINT(4) DEFAULT NULL
+  `ID_CATEGORIA` int(11) NOT NULL,
+  `NOMBRE_CATEGORIA` varchar(55) NOT NULL,
+  `ESTADO` tinyint(4) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `cliente`
+-- Estructura de tabla para la tabla `clientes`
 --
 
-CREATE TABLE `cliente` (
+CREATE TABLE `clientes` (
   `ID_CLIENTE` int(11) NOT NULL,
   `NOMBRE_CLIENTE` varchar(55) NOT NULL,
   `APELLIDO_CLIENTE` varchar(55) NOT NULL,
@@ -66,13 +84,13 @@ CREATE TABLE `compras_producto` (
 --
 
 CREATE TABLE `productos` (
-  `id_producto` int(11) NOT NULL,
-  `nombre_producto` varchar(55) NOT NULL,
-  `id_categoria` int(11) NOT NULL,
-  `codigo_barras` varchar(150) DEFAULT NULL,
-  `precio_venta` decimal(16,2) DEFAULT NULL,
-  `cantidad_stock` int(11) NOT NULL,
-  `estado` tinyint(4) DEFAULT NULL
+  `ID_PRODUCTO` int(11) NOT NULL,
+  `NOMBRE_PRODUCTO` varchar(55) NOT NULL,
+  `ID_CATEGORIA` int(11) NOT NULL,
+  `CODIGO_BARRAS` varchar(150) DEFAULT NULL,
+  `PRECIO_VENTA` decimal(16,2) DEFAULT NULL,
+  `CANTIDAD_STOCK` int(11) NOT NULL,
+  `ESTADO` tinyint(4) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -83,12 +101,12 @@ CREATE TABLE `productos` (
 -- Indices de la tabla `categorias`
 --
 ALTER TABLE `categorias`
-  ADD PRIMARY KEY (`id_categoria`);
+  ADD PRIMARY KEY (`ID_CATEGORIA`);
 
 --
--- Indices de la tabla `cliente`
+-- Indices de la tabla `clientes`
 --
-ALTER TABLE `cliente`
+ALTER TABLE `clientes`
   ADD PRIMARY KEY (`ID_CLIENTE`);
 
 --
@@ -109,8 +127,8 @@ ALTER TABLE `compras_producto`
 -- Indices de la tabla `productos`
 --
 ALTER TABLE `productos`
-  ADD PRIMARY KEY (`id_producto`),
-  ADD KEY `fk_categoria` (`id_categoria`);
+  ADD PRIMARY KEY (`ID_PRODUCTO`),
+  ADD KEY `FK_CATEGORIA` (`ID_CATEGORIA`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -120,7 +138,7 @@ ALTER TABLE `productos`
 -- AUTO_INCREMENT de la tabla `categorias`
 --
 ALTER TABLE `categorias`
-  MODIFY `id_categoria` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID_CATEGORIA` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `compra`
@@ -132,7 +150,7 @@ ALTER TABLE `compra`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID_PRODUCTO` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Restricciones para tablas volcadas
@@ -142,19 +160,18 @@ ALTER TABLE `productos`
 -- Filtros para la tabla `compra`
 --
 ALTER TABLE `compra`
-  ADD CONSTRAINT `FK_COMPRAS` FOREIGN KEY (`ID_CLIENTE`) REFERENCES `cliente` (`ID_CLIENTE`);
+  ADD CONSTRAINT `FK_COMPRAS` FOREIGN KEY (`ID_CLIENTE`) REFERENCES `clientes` (`ID_CLIENTE`);
 
 --
 -- Filtros para la tabla `compras_producto`
 --
 ALTER TABLE `compras_producto`
   ADD CONSTRAINT `FK_COMPRA` FOREIGN KEY (`ID_COMPRAS`) REFERENCES `compra` (`ID_COMPRA`),
-  ADD CONSTRAINT `FK_PRODUCTO` FOREIGN KEY (`ID_PRODUCTO`) REFERENCES `productos` (`id_producto`);
+  ADD CONSTRAINT `FK_PRODUCTO` FOREIGN KEY (`ID_PRODUCTO`) REFERENCES `productos` (`ID_PRODUCTO`);
 
 --
 -- Filtros para la tabla `productos`
 --
 ALTER TABLE `productos`
-  ADD CONSTRAINT `fk_categoria` FOREIGN KEY (`id_categoria`) REFERENCES `categorias` (`id_categoria`);
-
+  ADD CONSTRAINT `FK_CATEGORIA` FOREIGN KEY (`ID_CATEGORIA`) REFERENCES `categorias` (`ID_CATEGORIA`);
 

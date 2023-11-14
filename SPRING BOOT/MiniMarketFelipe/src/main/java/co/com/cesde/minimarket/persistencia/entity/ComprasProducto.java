@@ -3,35 +3,33 @@ package co.com.cesde.minimarket.persistencia.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name="compras_producto")
+@Table(name = "COMPRAS_PRODUCTO")
 public class ComprasProducto {
     @EmbeddedId
-    private ComprasProductoPK id;
 
+    private ComprasProductoPk id;
     private Integer cantidad;
-
     private Double total;
-
     private Integer estado;
 
-
-
     @ManyToOne
-    @JoinColumn(name="ID_COMPRAS", insertable = false,updatable = false)
+    @JoinColumn(name = "ID_COMPRAS", insertable = false, updatable = false)
     private Compra compra;
 
+
     @ManyToOne
-    @JoinColumn(name="ID_PRODUCTOS", insertable = false,updatable = false)
-    private Producto producto;
+    @JoinColumn(name = "ID_PRODUCTOS", insertable = false, updatable = false)
+    private Productos productos;
 
 
 
 
-    public ComprasProductoPK getId() {
+    //getter and setter
+    public ComprasProductoPk getId() {
         return id;
     }
 
-    public void setId(ComprasProductoPK id) {
+    public void setId(ComprasProductoPk id) {
         this.id = id;
     }
 

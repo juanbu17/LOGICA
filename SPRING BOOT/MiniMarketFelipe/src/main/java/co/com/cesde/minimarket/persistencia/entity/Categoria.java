@@ -4,32 +4,32 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(name="categorias")
+@Table(name = "CATEGORIAS")
 public class Categoria {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_categoria")
-    private Integer IdCategoria;
-    @Column(name = "nombre_categoria")
+    @Column(name = "ID_CATEGORIA")
+    private Integer idCategoria;
+    @Column(name = "NOMBRE_CATEGORIA")
     private String nombreCategoria;
-    @Column(name = "estado")
     private Integer estado;
 
     @OneToMany(mappedBy = "categoria")
-    private List<Producto> productos;
+    private List<Productos> productos;
 
 
 
 
+
+    //-------------------------------------------------------//
 
 
     public Integer getIdCategoria() {
-        return IdCategoria;
+        return idCategoria;
     }
 
     public void setIdCategoria(Integer idCategoria) {
-        IdCategoria = idCategoria;
+        this.idCategoria = idCategoria;
     }
 
     public String getNombreCategoria() {
