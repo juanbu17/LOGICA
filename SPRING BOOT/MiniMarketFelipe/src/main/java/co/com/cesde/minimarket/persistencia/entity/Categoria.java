@@ -12,10 +12,10 @@ public class Categoria {
     private Integer idCategoria;
     @Column(name = "NOMBRE_CATEGORIA")
     private String nombreCategoria;
-    private Integer estado;
+    private Boolean estado;
 
     @OneToMany(mappedBy = "categoria")
-    private List<Productos> productos;
+    private List<Producto> productos;
 
 
 
@@ -40,11 +40,11 @@ public class Categoria {
         this.nombreCategoria = nombreCategoria;
     }
 
-    public Integer getEstado() {
+    public Boolean getEstado() {
         return estado;
     }
 
-    public void setEstado(Integer estado) {
+    public void setEstado(Boolean estado) {
         this.estado = estado;
     }
 }

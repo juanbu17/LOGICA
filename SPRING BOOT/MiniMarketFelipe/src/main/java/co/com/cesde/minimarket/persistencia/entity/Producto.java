@@ -6,7 +6,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "PRODUCTOS")
-public class Productos {
+public class Producto {
 
     @Column(name = "ID_PRODUCTO")
 private Integer idProducto;
@@ -20,7 +20,7 @@ private String codigoBarras;
 private Double precioVenta;
     @Column(name = "CANTIDAD_STOCK")
 private Integer cantidadStock;
-    private Integer estado;
+    private Boolean estado;
 
     public Integer getIdProducto() {
         return idProducto;
@@ -70,11 +70,11 @@ private Integer cantidadStock;
         this.cantidadStock = cantidadStock;
     }
 
-    public Integer getEstado() {
+    public Boolean getEstado() {
         return estado;
     }
 
-    public void setEstado(Integer estado) {
+    public void setEstado(Boolean estado) {
         this.estado = estado;
     }
 }

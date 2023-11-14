@@ -19,7 +19,7 @@ public class ComprasProducto {
 
     @ManyToOne
     @JoinColumn(name = "ID_PRODUCTOS", insertable = false, updatable = false)
-    private Productos productos;
+    private Producto productos;
 
 
 
